@@ -1,0 +1,56 @@
+#locale {
+    padding-top: 6px;
+    padding-right: 15px;
+}
+
+input#lang_ru{
+    background-image: url("/front/image/russia.png");
+}
+
+input#lang_en{
+    background-image: url("/front/image/english.png");
+}
+
+input#lang_en,input#lang_ru{
+    background-size: cover;
+    bregistration: none;
+    box-shadow: none;
+    height: 30px;
+    width: 30px;
+    max-width: 30px;
+    max-width: 30px;
+    float: right;
+    background-position: center;
+    font-size: 0px;
+}
+
+.navbar-my {
+    background-color: #f0f0f0;
+   /* bregistration-color: #000;*/
+   /* box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+}
+
+/* отступ */
+.pad-15{
+    padding: 15px 0;
+}
+
+.cd-section {
+    top: 60px;
+    left: 13px;
+    position: fixed;
+    z-index: 1;
+}
+
+#profile-row{
+    margin-top:70px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#profile-password{
+    margin-left: 0px;
+    display:grid;
+    margin-right: 0px;
+}
+
